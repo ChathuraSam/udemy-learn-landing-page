@@ -1,0 +1,68 @@
+body{
+  background-image: url("background.jpg");
+   background-size: cover;
+   font-family: 'Cinzel Decorative';font-size: 22px;
+   text-align: center;
+   margin-top: 20px;
+}
+
+h1{
+  color: white;
+}
+
+h1:hover{
+  -webkit-transition:all 1s ease-in-out;
+  -webkit-transform:scale(1.4);
+}
+
+h6{
+  color: white;
+}
+
+.container{
+  background-color:rgba(48, 51, 107,0.4);
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.face{
+  width:120px;
+  height: 200px;
+  display:inline;
+}
+
+img{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  display:inline;
+  padding: 10px;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+}
+
+
+button{
+  background-color: #95afc0; /* Green */
+    border: none;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+button:hover{
+  -webkit-transition:all 1s ease-in-out;
+  -webkit-transform:scale(1.2);
+}
+
+#mc_embed_signup_scroll{
+  margin-top: 40px;
+  background-color: rgb(12, 36, 97);
+  color: white;
+}
